@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
 * {
   font-family: "Open Sans", sans-serif;
 }
@@ -11,6 +10,7 @@
   font-family: "Noto Sans", sans-serif;
   font-weight: 700;
 }
+
 .header a {
   text-decoration: none;
   font-size: 25px;
@@ -21,15 +21,18 @@
 header nav a.active {
   color: rgb(163, 241, 85);
 }
+
 section {
   text-align: center;
   padding: 20px;
 }
+
 .title {
   font-size: 30px;
-  margin-bottom: 50px;
+  margin: 50px 0px;
   font-weight: bold;
 }
+
 .subtitle {
   font-size: 25px;
   margin: 20px 0px;
@@ -51,6 +54,7 @@ section {
   padding: 25px;
   border-radius: 20px;
 }
+
 .color-inline {
   display: inline-block;
   margin: 0px 10px;
@@ -73,34 +77,39 @@ section {
 .color-1 {
   background-color: #99d8ca;
 }
+
 .color-2 {
   background-color: #0d1430;
 }
+
 .color-3 {
   background-color: #90ffa9;
 }
+
 .color-4 {
   background-color: #5873e2;
 }
+
 hr {
   width: 50%;
   border: 1px dashed #807e7e;
 }
 
 .box-inline-container {
-  width: 600px;
+  width: 660px;
   border: 1px solid black;
   margin: 20px auto;
   font-size: 0;
+  border: 2px solid black;
 }
 
 .inline-box {
   display: inline-block;
-  width: 190px;
-  height: 120px;
+  width: 200px;
+  height: 180px;
   background-color: #dae0fa;
   box-sizing: border-box;
-  margin: 5px;
+  margin: 10px;
 }
 
 .border {
@@ -124,6 +133,10 @@ img {
   background-color: white;
   display: inline-block;
   margin: 10px 10px;
+}
+
+article {
+  display: inline-block;
 }
 
 .heading {
@@ -150,16 +163,37 @@ main {
   padding: 5px;
   padding-top: 15px;
 }
-.read-more a {
+
+a {
   text-decoration: none;
   font-size: 20px;
-  color: #fff;
+  color: #f8fffa;
+  text-align: left;
+  margin-left: 1px;
   font-weight: bold;
+}
+
+.learnmore {
+  text-decoration: underline;
+  font-size: 24px;
+  color: #0dc735;
+  text-align: left;
+  font-weight: bold;
+  float: left;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .learn-more a {
   font-size: 20px;
-  color: #19bb3d;
+  color: #eafbee;
   font-weight: bold;
 }
 
@@ -168,4 +202,5 @@ p {
   line-height: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: left;
 }
