@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-.header {
+.nav-header {
   background-color: #07154c;
   text-align: center;
   padding: 20px;
@@ -11,7 +10,7 @@
   font-weight: 700;
 }
 
-.header a {
+.nav-header a {
   text-decoration: none;
   font-size: 25px;
   color: white;
@@ -48,19 +47,19 @@ section {
   box-shadow: 00px 1px 00px 7px #0d1430;
 }
 
-.box-container {
+.box-outer-container {
   display: inline-block;
   background-color: #90ffa9;
   padding: 25px;
   border-radius: 20px;
 }
 
-.color-inline {
+.color-wrapper {
   display: inline-block;
   margin: 0px 10px;
 }
 
-.circle-container {
+.circle-outer-container {
   margin-top: 20px;
   padding: 20px 0px;
 }
@@ -112,7 +111,7 @@ hr {
   margin: 10px;
 }
 
-.border {
+.border-1 {
   border: 1px solid black;
 }
 
@@ -144,6 +143,7 @@ article {
   line-height: 40px;
   font-weight: bold;
   color: #07154c;
+  text-align: left;
 }
 
 .margin-top-20 {
@@ -151,7 +151,7 @@ article {
 }
 
 main {
-  margin: 40px 0px;
+  margin: 30px auto;
 }
 
 .read-more {
